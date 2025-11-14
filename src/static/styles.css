@@ -93,6 +93,9 @@ section h3 {
 }
 
 .participants-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 6px 10px;
   margin-bottom: 5px;
   background-color: #e8eaf6;
@@ -101,6 +104,25 @@ section h3 {
   font-size: 14px;
   color: #333;
   transition: background-color 0.2s;
+}
+
+.participant-email {
+  flex: 1;
+}
+
+.delete-participant {
+  margin-left: 12px;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 18px;
+  transition: color 0.2s;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.delete-participant:hover {
+  color: #df4545;
+  cursor: pointer;
 }
 
 .participants-list li:hover {
