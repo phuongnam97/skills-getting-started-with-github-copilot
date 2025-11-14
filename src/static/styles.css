@@ -122,7 +122,6 @@ section h3 {
 
 .delete-participant:hover {
   color: #df4545;
-  cursor: pointer;
 }
 
 .participants-list li:hover {
